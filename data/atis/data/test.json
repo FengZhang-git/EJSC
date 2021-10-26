@@ -1,0 +1,829 @@
+{"text_u": "which airlines fly from boston to washington dc via other cities", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, B-airline toloc state_code, O, O, O"}
+{"text_u": "what types of ground transportation are there to san francisco airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service toloc airport_name, I-ground_service toloc airport_name, I-ground_service toloc airport_name"}
+{"text_u": "show me ground transportation in boston and in baltimore", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, O, O, B-ground_service city_name"}
+{"text_u": "what does fare code y mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "ground transportation in phoenix", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name"}
+{"text_u": "what does fare code qx mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "which airlines fly from boston to washington dc but stopover in some other city", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, B-airline toloc state_code, O, O, F, O, O, O, O"}
+{"text_u": "ground transportation in oakland", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name"}
+{"text_u": "what airlines fly from st. petersburg to milwaukee and from milwaukee to tacoma", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, F, I-airline fromloc city_name, O, B-airline toloc city_name, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "could you please tell me the airlines that fly from toronto to san diego", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what is ewr", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "does any airline have a jet flight between pittsburgh and baltimore", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is mco", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "how long does it take to get from atlanta airport into the city of atlanta", "intent": "distance", "slots": "O, O, O, O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, O, O, O, O, B-distance toloc city_name"}
+{"text_u": "show me ground transportation information for san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what ground transportation is there in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what kind of ground transportation is there once i get to dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is ff", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "what kind of ground transportation is available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what kinds of ground transportation is available in dallas fort worth", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what is the distance between pittsburgh airport and downtown pittsburgh", "intent": "distance", "slots": "O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, O, O, B-distance toloc city_name"}
+{"text_u": "what airlines are there", "intent": "airline", "slots": "O, O, O, O"}
+{"text_u": "is there an airline that advertises having more flights than any other airline", "intent": "airline", "slots": "O, O, O, O, O, O, F, F, O, B-airline mod, O, O, O, O, O"}
+{"text_u": "what are the ground transportation services in philadelphia", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does fare code qo mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "ground transportation washington", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "what airlines fly between boston and atlanta", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "is there ground transportation from the atlanta airport to downtown atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "what ground transportation is available in newark", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "in denver what kind of ground transportation is there from the airport to downtown", "intent": "ground_service", "slots": "O, B-ground_service city_name, O, O, O, O, O, O, O, O, O, O, O, O"}
+{"text_u": "explain meal codes sd d", "intent": "abbreviation", "slots": "O, B-abbreviation meal, O, B-abbreviation meal_code, I-abbreviation meal_code"}
+{"text_u": "show me about the ground transportation in boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "ground transportation in baltimore", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name"}
+{"text_u": "explain fare code qx", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, F"}
+{"text_u": "show me all ground transportation in washington dc", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, B-ground_service state_code"}
+{"text_u": "show me the airlines that fly from san francisco to boston", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "is there limousine service available at baltimore airport", "intent": "ground_service", "slots": "O, O, B-ground_service transport_type, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "can i get a rental car in dallas", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service transport_type, I-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "tell me about ground transportation at san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what airlines flies out of atlanta", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name"}
+{"text_u": "what is the distance from boston airport to boston", "intent": "distance", "slots": "O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, O, B-distance toloc city_name"}
+{"text_u": "what are the seating capacities of planes between pittsburgh and baltimore", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, B-capacity fromloc city_name, O, B-capacity toloc city_name"}
+{"text_u": "information on ground transportation from airport to downtown boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service toloc city_name"}
+{"text_u": "show all airlines flying from pittsburgh to san francisco", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "is there ground transportation from the milwaukee airport to the downtown area", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, O, O, O, O"}
+{"text_u": "could you give me the schedule of flights for american and delta to dfw on august fifteenth", "intent": "flight_time", "slots": "O, O, O, O, O, B-flight_time flight_time, O, O, O, B-flight_time airline_name, O, B-flight_time airline_name, O, B-flight_time toloc airport_code, F, F, O, B-flight_time depart_date month_name, B-flight_time depart_date day_number"}
+{"text_u": "what is fare code f", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "show me airlines going from pittsburgh going to denver and then continuing to san francisco on monday", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, O, B-airline toloc city_name, O, O, O, O, B-airline toloc city_name, I-airline toloc city_name, O, B-airline depart_date day_name"}
+{"text_u": "please list the flight times from newark to boston", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "is there an airport limousine at the atlanta airport", "intent": "ground_service", "slots": "O, O, O, B-ground_service transport_type, I-ground_service transport_type, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "which airlines have first class flights today", "intent": "airline", "slots": "O, O, O, B-airline class_type, I-airline class_type, O, B-airline depart_date today_relative"}
+{"text_u": "show me ground transportation information for pittsburgh", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is the seating capacity of the various airplanes that united airlines uses", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, O, O, B-capacity airline_name, I-capacity airline_name, O"}
+{"text_u": "what airlines fly from boston to san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what does code yn mean", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "is there transportation from the atlanta airport to downtown atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "please give me ground transportation information for denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what ground transport is available in charlotte", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is as", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "can you list all the airlines that have flights from boston to san francisco", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what ground transportation is available in pittsburgh", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "which airlines fly from boston to washington dc", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, B-airline toloc state_code"}
+{"text_u": "what is fare code fn", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F"}
+{"text_u": "what ground transportation is available in san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "please list the flight times from pittsburgh to newark", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "can i see ground transportation from long beach airport to downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc city_name, I-ground_service fromloc city_name, O, O, O"}
+{"text_u": "what airlines fly from new york to milwaukee to los angeles", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline stoploc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "show me the airlines", "intent": "airline", "slots": "O, O, O, O"}
+{"text_u": "what does restriction ap 57 mean", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code, O"}
+{"text_u": "show me the airlines that fly from denver to san francisco", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "which airlines fly from toronto to san diego and have a stopover in denver", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name, O, O, O, O, F, O, B-airline stoploc city_name"}
+{"text_u": "could you tell me what the abbreviation us stands for", "intent": "abbreviation", "slots": "O, O, O, O, O, O, O, B-abbreviation airline_code, O, O"}
+{"text_u": "show me airlines with flights from pittsburgh to boston please", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O"}
+{"text_u": "what ground transportation is available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what ground transportation is available at the atlanta airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "does any airline offer dc10 service between denver and boston", "intent": "airline", "slots": "O, O, O, O, B-airline aircraft_code, F, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "which airlines are represented in the database", "intent": "airline", "slots": "O, O, O, O, O, O, O"}
+{"text_u": "please show me airlines with flights from denver to boston stop philadelphia", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline stoploc city_name"}
+{"text_u": "which airline has the smallest plane leaving pittsburgh and arriving in baltimore on july fourth", "intent": "airline", "slots": "O, O, O, O, B-airline mod, O, O, B-airline fromloc city_name, O, O, O, B-airline toloc city_name, O, B-airline arrive_date month_name, B-airline arrive_date day_number"}
+{"text_u": "what limousine service in los angeles", "intent": "ground_service", "slots": "O, B-ground_service transport_type, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "now i'd like a schedule for the flights on tuesday morning from oakland no from dallas fort worth to atlanta", "intent": "flight_time", "slots": "O, O, F, F, O, O, B-flight_time flight_time, O, O, O, O, B-flight_time depart_date day_name, B-flight_time depart_time period_of_day, O, B-flight_time fromloc city_name, O, O, B-flight_time fromloc city_name, I-flight_time fromloc city_name, I-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what does the fare code f mean", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "list all the airlines that fly into general mitchell international", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline toloc airport_name, I-airline toloc airport_name, I-airline toloc airport_name"}
+{"text_u": "is there an airline that services boston dc and dallas", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline fromloc city_name, B-airline fromloc state_code, O, B-airline fromloc city_name"}
+{"text_u": "what is fare code h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "how far is the airport from downtown pittsburgh", "intent": "distance", "slots": "O, O, O, O, O, O, O, B-distance fromloc city_name"}
+{"text_u": "ground transportation from airport in boston to downtown boston", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service fromloc city_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "what is ewr", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "show me airline abbreviations", "intent": "airline", "slots": "O, O, O, O, F"}
+{"text_u": "what time does flight aa 459 depart", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, B-flight_time airline_code, B-flight_time flight_number, F, O"}
+{"text_u": "what ground transportation is available from the denver airport to downtown denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "i would like the time your earliest flight from washington to philadelphia", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, O, B-flight_time flight_mod, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what does dfw mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, F, O"}
+{"text_u": "is there ground transportation from the airport in denver to downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service fromloc city_name, O, O"}
+{"text_u": "what ground transportation is there in dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "which airlines have flights from denver to pittsburgh", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what airlines fly between san francisco and denver", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "houston airports", "intent": "airport", "slots": "B-airport city_name, O"}
+{"text_u": "and how can i get to the boston airport from downtown boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service toloc airport_name, I-ground_service toloc airport_name, O, O, B-ground_service fromloc city_name"}
+{"text_u": "in atlanta i would like information on ground transportation", "intent": "ground_service", "slots": "O, B-ground_service city_name, O, O, O, O, O, O, O"}
+{"text_u": "what is the ground transportation available in the city of philadelphia", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is delta's schedule of morning flights to atlanta", "intent": "flight_time", "slots": "O, O, B-flight_time airline_name, F, F, B-flight_time flight_time, O, B-flight_time depart_time period_of_day, O, O, B-flight_time toloc city_name"}
+{"text_u": "please list the flight times from newark to boston", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what is mco", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "what does code y mean", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what is the schedule of flights from boston to denver next monday", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, B-flight_time depart_date date_relative, B-flight_time depart_date day_name"}
+{"text_u": "does any airline have an afternoon flight from atlanta to boston", "intent": "airline", "slots": "O, O, O, O, O, B-airline depart_time period_of_day, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "does dl stand for delta", "intent": "abbreviation", "slots": "O, B-abbreviation airline_code, O, O, B-abbreviation airline_name"}
+{"text_u": "what does us stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O, O"}
+{"text_u": "which airline can fly me from atlanta to denver to san francisco", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what is restriction ap 57", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "what's the airport at orlando", "intent": "airport", "slots": "O, F, F, O, O, O, B-airport city_name"}
+{"text_u": "how long does the ground transportation take from the salt lake city airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "explain the fare codes", "intent": "abbreviation", "slots": "O, O, O, O"}
+{"text_u": "what does iah mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O"}
+{"text_u": "show me ground transportation in dallas please", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, O"}
+{"text_u": "please show me all airports in denver", "intent": "airport", "slots": "O, O, O, O, O, O, B-airport city_name"}
+{"text_u": "what is fare code f", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what does s designate as a meal", "intent": "abbreviation", "slots": "O, O, B-abbreviation meal_code, O, O, O, B-abbreviation meal"}
+{"text_u": "how far is it from salt lake city airport to salt lake city", "intent": "distance", "slots": "O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, O, B-distance toloc city_name, I-distance toloc city_name, I-distance toloc city_name"}
+{"text_u": "show me airlines between boston and san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "show me the airlines that fly between toronto and denver", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "show me a list of ground transportation at boston airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "what ground transportation is available at boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what airlines fly between atlanta and san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what kind of airline is flight ua 281 from boston to denver", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline airline_code, B-airline flight_number, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is the abbreviation d10", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation aircraft_code, F"}
+{"text_u": "what is fare code h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "is there ground transportation in st. louis", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, F, I-ground_service city_name"}
+{"text_u": "i'd like to see the fare code again qx", "intent": "abbreviation", "slots": "O, F, F, O, O, O, O, O, O, O, B-abbreviation fare_basis_code, F"}
+{"text_u": "show me airports near washington dc", "intent": "airport", "slots": "O, O, O, O, B-airport city_name, B-airport state_code"}
+{"text_u": "what ground transportation is available from pittsburgh to downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc city_name, O, O"}
+{"text_u": "what does the abbreviation dl mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation airline_code, O"}
+{"text_u": "i need ground transportation in dallas please show me what's available", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, O, O, O, O, F, F, O"}
+{"text_u": "what is the code for business class", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation class_type, I-abbreviation class_type"}
+{"text_u": "what's the difference between fare code q and fare code b", "intent": "abbreviation", "slots": "O, F, F, O, O, O, O, O, B-abbreviation fare_basis_code, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what does d s stand for for meals", "intent": "abbreviation", "slots": "O, O, B-abbreviation meal_code, I-abbreviation meal_code, O, O, O, B-abbreviation meal"}
+{"text_u": "what airline is ac", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "which airlines fly between baltimore and san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "do you have any airlines that would stop at denver on the way from baltimore to san francisco", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, B-airline stoploc city_name, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "is there ground transportation from san diego airport to the downtown area", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, O, O"}
+{"text_u": "please show me airlines with flights from denver to philadelphia", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "list ground transportation options at phoenix", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what airline stands for hp", "intent": "airline", "slots": "O, O, O, O, B-airline airline_code"}
+{"text_u": "show me the schedule for airlines leaving pittsburgh going to san francisco for next monday", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, O, O, B-flight_time toloc city_name, I-flight_time toloc city_name, O, B-flight_time depart_date date_relative, B-flight_time depart_date day_name"}
+{"text_u": "what airlines fly from boston to washington", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "fine can you give me information on ground transportation in washington dc to downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service city_name, B-ground_service state_code, O, O"}
+{"text_u": "what airlines have business class service between boston and san francisco", "intent": "airline", "slots": "O, O, O, B-airline class_type, I-airline class_type, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "how long does it take to get from denver to oakland", "intent": "distance", "slots": "O, O, O, O, O, O, O, O, B-distance fromloc city_name, O, B-distance toloc city_name"}
+{"text_u": "what does mco stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O, O"}
+{"text_u": "please show me airlines with flights from boston to denver", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "is there an airline that has a flight from philadelphia to san francisco with a stop in dallas", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name, O, O, O, O, B-airline stoploc city_name"}
+{"text_u": "please list the rental car information in pittsburgh", "intent": "ground_service", "slots": "O, O, O, B-ground_service transport_type, I-ground_service transport_type, O, O, B-ground_service city_name"}
+{"text_u": "show me the airlines between boston and denver", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "i'm looking for ground transportation in dallas", "intent": "ground_service", "slots": "O, F, F, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what airline is ea the abbreviation for", "intent": "airline", "slots": "O, O, O, B-airline airline_code, O, O, O"}
+{"text_u": "what does ff mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O"}
+{"text_u": "what airlines have flights from boston to philadelphia that leave before 630 am", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, O, B-airline depart_time time_relative, B-airline depart_time time, I-airline depart_time time"}
+{"text_u": "what is the name of the airport in philadelphia", "intent": "airport", "slots": "O, O, O, O, O, O, O, O, B-airport city_name"}
+{"text_u": "what does fare code qo mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what airlines fly from philadelphia to san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "ground transportation in las vegas", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "ground transportation please in the city of boston between airport and downtown", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name, O, O, O, O"}
+{"text_u": "show me ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is ua", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "what is the ground transportation in san diego", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "i would like information on ground transportation in the city of atlanta from airport to downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, B-ground_service city_name, O, O, O, O"}
+{"text_u": "please show me airlines with flight service from boston to denver from denver to philadelphia and from philadelphia to boston", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what airlines fly between boston and san francisco and stop in denver", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name, O, O, O, B-airline stoploc city_name"}
+{"text_u": "ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name"}
+{"text_u": "what is the total schedule for delta's flights to all airports", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, O, B-flight_time airline_name, F, F, O, O, O, O"}
+{"text_u": "what is the ground transportation available in fort worth", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "can you find out about the ground transportation available in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "please show me ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what time does the tuesday morning 755 flight leaving washington arrive in san francisco", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, B-flight_time depart_date day_name, B-flight_time depart_time period_of_day, B-flight_time depart_time time, F, O, O, B-flight_time fromloc city_name, O, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "what ground transportation is available into washington", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "show me the ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what airline is the flight originating in atlanta on november seventh at noon and arriving in san francisco at 210 pm", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline depart_date month_name, B-airline depart_date day_number, O, B-airline depart_time time, O, O, O, B-airline toloc city_name, I-airline toloc city_name, O, B-airline arrive_time time, I-airline arrive_time time"}
+{"text_u": "which airlines fly between boston and pittsburgh", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "please list ground transport in san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "i would like the evening schedule of flights from san francisco to washington", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time depart_time period_of_day, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, I-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "show me the airlines that fly from toronto to san francisco", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "tell me about ground transportation between the dallas fort worth airport and downtown dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, I-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "what is the distance from san francisco international airport to san francisco", "intent": "distance", "slots": "O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, O, B-distance toloc city_name, I-distance toloc city_name"}
+{"text_u": "is there ground transportation in dallas from the dallas airport to downtown dallas", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "what ground transportation is available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "show me a list of all the airlines that offer business class service", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, O, B-airline class_type, I-airline class_type, O"}
+{"text_u": "ground transportation in san jose", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what is fare code h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "show me ground transportation in boston", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is the schedule of ground transportation from washington airport into downtown", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, O, O, O, O, B-flight_time fromloc airport_name, I-flight_time fromloc airport_name, O, O"}
+{"text_u": "what does ewr mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O"}
+{"text_u": "what is the yn code", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what time does the earliest flight which goes from atlanta to denver leave", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, B-flight_time flight_mod, O, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O"}
+{"text_u": "i would like to find out the ground travel available in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "tell me about ground transportation at toronto", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "ground transportation in dallas and boston", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name, O, B-ground_service city_name"}
+{"text_u": "show me ground transport in seattle", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "are there any limousines or taxi services available at the boston airport", "intent": "ground_service", "slots": "O, O, O, B-ground_service transport_type, F, B-ground_service or, B-ground_service transport_type, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "what does the fare code f mean", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "how many people fit on a 72s airplane", "intent": "capacity", "slots": "O, O, O, O, O, O, B-capacity aircraft_code, F, O"}
+{"text_u": "what airlines fly from dallas to baltimore", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "is there ground transportation from the pittsburgh airport to downtown pittsburgh", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "i will need a car at new york", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service transport_type, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "explain the fare code q", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "does the phoenix airport have ground transportation to and from downtown", "intent": "ground_service", "slots": "O, O, B-ground_service airport_name, I-ground_service airport_name, O, O, O, O, O, O, O"}
+{"text_u": "what ground transportation is available in baltimore", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "define airline hp", "intent": "airline", "slots": "O, O, B-airline airline_code"}
+{"text_u": "what is airline us", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "ground transportation san francisco", "intent": "ground_service", "slots": "O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "which airlines have flights between charlotte and newark", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what time are the flights leaving from denver to pittsburgh on july seventh", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, B-flight_time depart_date month_name, B-flight_time depart_date day_number"}
+{"text_u": "what does the fare code yn mean", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what does hou mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O"}
+{"text_u": "which airlines serve pittsburgh", "intent": "airline", "slots": "O, O, O, B-airline city_name"}
+{"text_u": "what ground transportation is there from the airport in atlanta to downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, B-ground_service fromloc city_name, O, O"}
+{"text_u": "what airlines from washington dc to columbus", "intent": "airline", "slots": "O, O, O, B-airline fromloc city_name, B-airline fromloc state_code, O, B-airline toloc city_name"}
+{"text_u": "which airlines fly from boston to washington", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "show me ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what do you know about car rental in denver", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service transport_type, I-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "what does the fare code qx mean", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what is fare code h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what ground transportation is there in oakland", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "which airline has more business class flights than any other airline", "intent": "airline", "slots": "O, O, O, B-airline mod, B-airline class_type, I-airline class_type, O, O, O, O, O"}
+{"text_u": "which airlines have first class flights today", "intent": "airline", "slots": "O, O, O, B-airline class_type, I-airline class_type, O, B-airline depart_date today_relative"}
+{"text_u": "what is the ap57 restriction", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, F, O"}
+{"text_u": "what airlines service pittsburgh airport", "intent": "airline", "slots": "O, O, O, B-airline airport_name, I-airline airport_name"}
+{"text_u": "what does ea mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O"}
+{"text_u": "i'd like to know the ground travel available in fort worth", "intent": "ground_service", "slots": "O, F, F, O, O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what does restriction ap 57 mean", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code, O"}
+{"text_u": "define airline ua", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "what kind of ground transportation can you offer me in seattle", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "which airline has the most arrivals in atlanta", "intent": "airline", "slots": "O, O, O, O, B-airline mod, O, O, B-airline toloc city_name"}
+{"text_u": "ground transportation baltimore", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "what car rentals are available next sunday from denver airport", "intent": "ground_service", "slots": "O, B-ground_service transport_type, I-ground_service transport_type, F, O, O, B-ground_service depart_date date_relative, B-ground_service depart_date day_name, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name"}
+{"text_u": "ground transportation oakland", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "show me boston ground transportation", "intent": "ground_service", "slots": "O, O, B-ground_service city_name, O, O"}
+{"text_u": "show me the airlines between toronto and denver", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "how long is the flight from atlanta to san francisco at noon on november seventh", "intent": "distance", "slots": "O, O, O, O, O, O, B-distance fromloc city_name, O, B-distance toloc city_name, I-distance toloc city_name, O, B-distance depart_time time, O, B-distance depart_date month_name, B-distance depart_date day_number"}
+{"text_u": "what airlines leave from washington", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name"}
+{"text_u": "code ff", "intent": "abbreviation", "slots": "O, B-abbreviation airline_code"}
+{"text_u": "ground transportation in westchester county", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "i would like information on ground transportation city of boston between airport and downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name, O, O, O, O"}
+{"text_u": "what is the transportation time from the airport to boston", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service time, O, O, O, O, B-ground_service toloc city_name"}
+{"text_u": "which airlines fly into and out of denver", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline city_name"}
+{"text_u": "what does fare code qo mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what time are flights from denver to san francisco on continental airlines", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name, O, B-flight_time airline_name, I-flight_time airline_name"}
+{"text_u": "i need information on ground transportation between airport and downtown in the city of boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, O, B-ground_service toloc city_name, I-ground_service toloc city_name, I-ground_service toloc city_name"}
+{"text_u": "what airlines have nonstop early afternoon flights from boston to denver", "intent": "airline", "slots": "O, O, O, B-airline flight_stop, B-airline depart_time period_of_day, B-airline arrive_time period_of_day, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is bur", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "i would like to know the types of ground transportation from the airport to las vegas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "how do i get downtown from the toronto airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name"}
+{"text_u": "what is booking class c", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "show me the car rentals in baltimore", "intent": "ground_service", "slots": "O, O, O, B-ground_service transport_type, I-ground_service transport_type, F, O, B-ground_service city_name"}
+{"text_u": "show me the names of airlines in atlanta", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline city_name"}
+{"text_u": "which airlines have flights from san francisco to washington by way of indianapolis", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline toloc city_name, O, O, O, B-airline stoploc city_name"}
+{"text_u": "all right give me the flight times in the morning on september twentieth from pittsburgh to san francisco", "intent": "flight_time", "slots": "O, O, O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, O, B-flight_time depart_time period_of_day, O, B-flight_time depart_date month_name, B-flight_time depart_date day_number, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "what is the distance from la guardia to new york's downtown", "intent": "distance", "slots": "O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, F, O, B-distance toloc city_name, I-distance toloc city_name, F, F, O"}
+{"text_u": "which airlines fly between boston and pittsburgh", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is mco", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "what is the meaning of restriction ap80", "intent": "abbreviation", "slots": "O, O, O, O, O, O, B-abbreviation restriction_code, F"}
+{"text_u": "how many passengers fit on a d9s", "intent": "capacity", "slots": "O, O, O, O, O, O, B-capacity aircraft_code, F, F"}
+{"text_u": "what is the flight schedule of the f28 from pittsburgh to baltimore", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, O, B-flight_time aircraft_code, F, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what is fare code h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what is ff", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "what is the ground transportation available in boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "i would like the time of all flights from san francisco to pittsburgh on sunday", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, O, O, O, O, B-flight_time fromloc city_name, I-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, B-flight_time depart_date day_name"}
+{"text_u": "what airlines go to pittsburgh", "intent": "airline", "slots": "O, O, O, O, B-airline toloc city_name"}
+{"text_u": "may i please see airlines and flight numbers from new york to toronto on the same date june seventeenth also arriving in toronto before noon thank you", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline toloc city_name, O, O, B-airline depart_date date_relative, O, B-airline depart_date month_name, B-airline depart_date day_number, O, O, O, B-airline toloc city_name, B-airline arrive_time time_relative, B-airline arrive_time time, O, O"}
+{"text_u": "what does ea mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O"}
+{"text_u": "what is restriction ap 57", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "show me ground transportation for boston", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what ground transportation is there from denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "ground transportation dallas", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "give me a list of airlines in pittsburgh", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline city_name"}
+{"text_u": "what's the difference between fare code q and fare code f", "intent": "abbreviation", "slots": "O, F, F, O, O, O, O, O, B-abbreviation fare_basis_code, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what is the schedule for flights between pittsburgh and boston on the evening of july ninth", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, O, B-flight_time depart_time period_of_day, O, B-flight_time depart_date month_name, B-flight_time depart_date day_number"}
+{"text_u": "i'd like a limo in denver on august seventh", "intent": "ground_service", "slots": "O, F, F, O, O, B-ground_service transport_type, O, B-ground_service fromloc city_name, O, B-ground_service depart_date month_name, B-ground_service depart_date day_number"}
+{"text_u": "what is the departure time of the latest flight of united airlines from denver to boston", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, O, B-flight_time flight_mod, O, O, B-flight_time airline_name, I-flight_time airline_name, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what is ground transportation between the san francisco airport and the city", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, O"}
+{"text_u": "is there ground transportation from the dallas airport to downtown dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "tell me which airlines have flights from pittsburgh to san francisco on monday september second", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name, O, B-airline depart_date day_name, B-airline depart_date month_name, B-airline depart_date day_number"}
+{"text_u": "what are the schedule of flights from boston to san francisco for august first", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name, O, B-flight_time depart_date month_name, B-flight_time depart_date day_number"}
+{"text_u": "which airlines serve denver", "intent": "airline", "slots": "O, O, O, B-airline city_name"}
+{"text_u": "what ground transportation is available in baltimore for the day after tomorrow", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, O, B-ground_service today_relative, I-ground_service today_relative, I-ground_service today_relative, I-ground_service today_relative"}
+{"text_u": "what airlines fly from boston to atlanta", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what ground transportation is available at denver airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "show me information on ground transportation for dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "show me airports in washington dc", "intent": "airport", "slots": "O, O, O, O, B-airport city_name, B-airport state_code"}
+{"text_u": "ground transportation between airport and downtown in boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service toloc city_name"}
+{"text_u": "names of airports", "intent": "airport", "slots": "O, O, O"}
+{"text_u": "airlines that fly to miami from new york on friday", "intent": "airline", "slots": "O, O, O, O, B-airline toloc city_name, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline depart_date day_name"}
+{"text_u": "tell me about the ground transportation in chicago", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "do the airlines still offer first class", "intent": "airline", "slots": "O, O, O, O, O, B-airline class_type, I-airline class_type"}
+{"text_u": "list the airlines that have nonstop afternoon flights from boston to oakland", "intent": "airline", "slots": "O, O, O, O, O, B-airline flight_stop, B-airline arrive_time period_of_day, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is the arrival time in san francisco for the 755 am flight leaving washington", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, I-flight_time fromloc city_name, O, O, B-flight_time depart_time time, F, I-flight_time depart_time time, O, O, B-flight_time fromloc city_name"}
+{"text_u": "please show me airlines with flights from denver to boston with a stopover in philadelphia", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, O, O, F, O, B-airline stoploc city_name"}
+{"text_u": "what ground transport is available in minneapolis", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "please give me the flight times i would like to fly from boston to baltimore in the morning before 8", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, O, O, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, O, B-flight_time depart_time period_of_day, B-flight_time depart_time time_relative, B-flight_time depart_time time"}
+{"text_u": "what is the schedule of ground transportation from the airport in philadelphia into downtown", "intent": "ground_service", "slots": "O, O, O, B-ground_service flight_time, O, O, O, O, O, O, O, B-ground_service fromloc city_name, O, O"}
+{"text_u": "what is the minimum connection time for houston intercontinental", "intent": "flight_time", "slots": "O, O, O, O, O, O, O, B-flight_time airport_name, I-flight_time airport_name"}
+{"text_u": "what is the ground transportation available in fort worth texas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name, B-ground_service state_name"}
+{"text_u": "what is the distance from toronto international airport to toronto", "intent": "distance", "slots": "O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, O, B-distance toloc city_name"}
+{"text_u": "describe fare code qx", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, F"}
+{"text_u": "what's the ground transportation like at pittsburgh", "intent": "ground_service", "slots": "O, F, F, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is ewr", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "show me ground transportation in washington dc", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, B-ground_service state_code"}
+{"text_u": "show me airline abbreviations", "intent": "airline", "slots": "O, O, O, O, F"}
+{"text_u": "what is sa", "intent": "abbreviation", "slots": "O, O, B-abbreviation days_code"}
+{"text_u": "ground transportation for st. paul", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name, F, I-ground_service city_name"}
+{"text_u": "describe ground transportation in dallas", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service city_name"}
+{"text_u": "can you help me with ground transportation information i need to get from the airport in philadelphia to downtown philadelphia", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ground_service fromloc city_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "what is ua", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "which airlines fly from bwi to dallas fort worth", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc airport_code, F, O, B-airline toloc city_name, I-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "how far is downtown from the airport in dallas", "intent": "distance", "slots": "O, O, O, O, O, O, O, O, B-distance fromloc city_name"}
+{"text_u": "what is the earliest departure time from boston to denver", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_mod, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "i'll need a rental car at the atlanta airport can you show me what's available", "intent": "ground_service", "slots": "O, F, F, O, O, B-ground_service transport_type, I-ground_service transport_type, O, O, B-ground_service airport_name, I-ground_service airport_name, O, O, O, O, O, F, F, O"}
+{"text_u": "what is hp", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "tell me distance from orlando airport to the city", "intent": "distance", "slots": "O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, O, O, O"}
+{"text_u": "is there any ground transportation to the city in dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what is fare code h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "explain restriction ap please", "intent": "abbreviation", "slots": "O, O, B-abbreviation restriction_code, O"}
+{"text_u": "what's the ground transportation from oakland to san francisco", "intent": "ground_service", "slots": "O, F, F, O, O, O, O, B-ground_service fromloc city_name, O, B-ground_service toloc city_name, I-ground_service toloc city_name"}
+{"text_u": "what ground transportation is available in dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "ground transport in oakland", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name"}
+{"text_u": "is there ground transportation between airport and downtown in boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, B-ground_service toloc city_name"}
+{"text_u": "what type of ground transportation is available in washington", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does the fare code qw mean", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "can you tell me about ground transportation between the dallas airport and downtown dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "what is yyz", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, F"}
+{"text_u": "what is the distance from los angeles international airport to los angeles", "intent": "distance", "slots": "O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, O, B-distance toloc city_name, I-distance toloc city_name"}
+{"text_u": "what ground transportation is available in san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what does ewr mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O"}
+{"text_u": "tell me about ground transportation in st. petersburg airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, F, I-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "what is restriction ap 80", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "what type of ground transportation is available at logan airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "what is airline dl", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "show me the ground transportation in the salt lake city airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "ground transportation philadelphia", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "while i'm in pittsburgh what ground transportation is available", "intent": "ground_service", "slots": "O, O, F, F, O, B-ground_service city_name, O, O, O, O, O"}
+{"text_u": "train to newark", "intent": "ground_service", "slots": "B-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "what are the times that you have planes leaving from san francisco going to pittsburgh on july seventh", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, O, O, O, O, O, O, B-flight_time fromloc city_name, I-flight_time fromloc city_name, O, O, B-flight_time toloc city_name, O, B-flight_time depart_date month_name, B-flight_time depart_date day_number"}
+{"text_u": "what does fare code qo mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what does ground transportation look like in oakland", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is the abbreviation for canadian airlines international", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation airline_name, I-abbreviation airline_name, I-abbreviation airline_name"}
+{"text_u": "what airline is dl", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "show me ground transportation in westchester county", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "is there ground transportation from atlanta airport to downtown atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "what airlines fly from toronto to san diego with a stopover in denver", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name, O, O, O, F, O, B-airline stoploc city_name"}
+{"text_u": "what kind of ground transportation is there in philadelphia", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "atlanta ground transportation", "intent": "ground_service", "slots": "B-ground_service city_name, O, O"}
+{"text_u": "what ground transportation is available in dallas tomorrow", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, B-ground_service today_relative"}
+{"text_u": "what does the fare code y mean", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "explain the restriction ap 57", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "what is airline ff", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "is there ground transportation from the airport to downtown phoenix", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, B-ground_service toloc city_name"}
+{"text_u": "how many people fly on a turboprop", "intent": "capacity", "slots": "O, O, O, O, O, O, O, F, F"}
+{"text_u": "what does the fare code f and fn mean", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation fare_basis_code, O, O, F, O"}
+{"text_u": "how do i get to philadelphia downtown from the airport", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service toloc city_name, O, O, O, O"}
+{"text_u": "what ground transportation is there in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "fare code y what does that mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation fare_basis_code, O, O, O, O"}
+{"text_u": "what does fare code y mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what airport in new york is closest to downtown", "intent": "airport", "slots": "O, O, O, B-airport fromloc city_name, I-airport fromloc city_name, O, B-airport mod, O, O"}
+{"text_u": "how many people fit on a 73s", "intent": "capacity", "slots": "O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "show me a list of ground transportation at denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what's the capacity of an f28", "intent": "capacity", "slots": "O, F, F, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "i need your help with information on ground transportation from the airport in philadelphia to downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, O, O, B-ground_service fromloc city_name, O, O"}
+{"text_u": "what is the meaning of fare code qx and qw", "intent": "abbreviation", "slots": "O, O, O, O, O, O, O, B-abbreviation fare_basis_code, F, O, B-abbreviation fare_basis_code, F"}
+{"text_u": "can i take a single airline from la to charlotte to newark back to la", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline toloc city_name, O, O, B-airline fromloc city_name"}
+{"text_u": "show me the ground transportation at denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "airports", "intent": "airport", "slots": "O"}
+{"text_u": "explain restriction ap 57", "intent": "abbreviation", "slots": "O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "what time does the flight leave denver going to san francisco on continental airlines", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, O, O, B-flight_time fromloc city_name, O, O, B-flight_time toloc city_name, I-flight_time toloc city_name, O, B-flight_time airline_name, I-flight_time airline_name"}
+{"text_u": "what is the meaning of meal code s", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation meal_code, I-abbreviation meal_code, I-abbreviation meal_code"}
+{"text_u": "please give ground transportation at denver airport", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "please list the flight times from boston to pittsburgh", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what is restriction ap 55", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "what type of ground transportation is available between the airport and downtown san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, O, B-ground_service toloc city_name, I-ground_service toloc city_name"}
+{"text_u": "show me the car rentals in baltimore", "intent": "ground_service", "slots": "O, O, O, B-ground_service transport_type, I-ground_service transport_type, F, O, B-ground_service city_name"}
+{"text_u": "what is the ground transportation from philadelphia airport to the city proper", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, O, O"}
+{"text_u": "show me the ground transportation to westchester county", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what types of ground transportation are available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does code y stand for", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, O, O"}
+{"text_u": "dallas ground transportation", "intent": "ground_service", "slots": "B-ground_service city_name, O, O"}
+{"text_u": "please list information regarding san francisco airport", "intent": "airport", "slots": "O, O, O, O, B-airport airport_name, I-airport airport_name, I-airport airport_name"}
+{"text_u": "what times does the late afternoon flight leave from washington for denver", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, B-flight_time depart_time period_of_day, I-flight_time depart_time period_of_day, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what does fare code m mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what airline besides continental flies between boston and denver", "intent": "airline", "slots": "O, O, B-airline mod, B-airline airline_name, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "list all the airlines flying between washington and denver", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is fare code qw", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F"}
+{"text_u": "how long does it take to get from kansas city to st. paul", "intent": "distance", "slots": "O, O, O, O, O, O, O, O, B-distance fromloc city_name, I-distance fromloc city_name, O, B-distance toloc city_name, F, I-distance toloc city_name"}
+{"text_u": "what airlines fly between boston and san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "please explain fare code f", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what is fare code q", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what is the available ground transportation between san francisco and downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc city_name, I-ground_service fromloc city_name, O, O"}
+{"text_u": "i would like information on ground transportation in atlanta from the airport to the city in the morning around 9 am", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name, O, O, O, O, O, O, O, O, B-ground_service period_of_day, B-ground_service time_relative, B-ground_service time, I-ground_service time"}
+{"text_u": "what airlines go from atlanta to baltimore", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what airport is at tampa", "intent": "airport", "slots": "O, O, O, O, B-airport city_name"}
+{"text_u": "what kind of ground transportation is there in washington dc", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name, B-ground_service state_code"}
+{"text_u": "which airlines have nonstop flights from kansas city to chicago", "intent": "airline", "slots": "O, O, O, B-airline flight_stop, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what ground transportation is available in boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "when does continental fly from philadelphia to denver on sundays", "intent": "flight_time", "slots": "B-flight_time flight_time, O, B-flight_time airline_name, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, B-flight_time depart_date day_name"}
+{"text_u": "i will be staying downtown in atlanta for two hours could you tell me what the ground transportation is available", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, O, O, O, O, O, O, O, O, O, O, O, O, O"}
+{"text_u": "what ground transportation is available from the pittsburgh airport to the town", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, O"}
+{"text_u": "show me ground transportation in denver during weekdays", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, O, O"}
+{"text_u": "what is fare code h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what is the ground transportation available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "in dallas fort worth i would like information on ground transportation", "intent": "ground_service", "slots": "O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name, O, O, O, O, O, O, O"}
+{"text_u": "which airlines fly between boston and philadelphia", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is the ap 57 restriction", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code, O"}
+{"text_u": "what limousine service in toronto", "intent": "ground_service", "slots": "O, B-ground_service transport_type, O, O, B-ground_service city_name"}
+{"text_u": "what's the schedule of flights from atlanta to boston on august first", "intent": "flight_time", "slots": "O, F, F, O, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, B-flight_time depart_date month_name, B-flight_time depart_date day_number"}
+{"text_u": "ground transport denver", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "define airline us", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "what sort of ground transportation is there in washington dc", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name, B-ground_service state_code"}
+{"text_u": "what airlines fly from toronto to san diego", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what times on wednesday could i take a plane from denver to oakland", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, B-flight_time depart_date day_name, O, O, O, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what is hp", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "airline code as", "intent": "airline", "slots": "O, O, B-airline airline_code"}
+{"text_u": "i need ground transportation in seattle", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is ewr", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "what does fn under fare code mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation fare_basis_code, F, O, O, O, O"}
+{"text_u": "is fare code b the same as business class", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, O, B-abbreviation mod, O, B-abbreviation class_type, I-abbreviation class_type"}
+{"text_u": "give me a list of airports in baltimore", "intent": "airport", "slots": "O, O, O, O, O, O, O, B-airport city_name"}
+{"text_u": "train to newark", "intent": "ground_service", "slots": "B-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "show me times for coach flights between boston and baltimore on wednesday", "intent": "flight_time", "slots": "O, O, B-flight_time flight_time, O, B-flight_time class_type, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, B-flight_time depart_date day_name"}
+{"text_u": "what is the fare code y and what is the fare code h", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation fare_basis_code, O, O, O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "which airlines fly between boston and baltimore", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what ground transportation is available in charlotte", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what time does twa depart from boston to go to san francisco", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, B-flight_time airline_code, F, O, O, B-flight_time fromloc city_name, O, O, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "which airlines serve atlanta", "intent": "airline", "slots": "O, O, O, B-airline city_name"}
+{"text_u": "what is the ground transportation from boston airport to boston downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, B-ground_service toloc city_name, O"}
+{"text_u": "what is the name of the airport at denver", "intent": "airport", "slots": "O, O, O, O, O, O, O, O, B-airport city_name"}
+{"text_u": "can i rent a car in san jose too", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service transport_type, O, B-ground_service city_name, I-ground_service city_name, O"}
+{"text_u": "i would like a schedule of flights from san francisco to boston on wednesday", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, I-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, B-flight_time depart_date day_name"}
+{"text_u": "show me ground transportation in san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "please show me airlines with flights from philadelphia to dallas", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what ground transportation is available from the pittsburgh airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name"}
+{"text_u": "what ground transportation is available in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does y mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "show me ground transportation in baltimore", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "please tell me which airline has the most departures from atlanta", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline mod, O, F, O, B-airline fromloc city_name"}
+{"text_u": "what about a car rental in denver", "intent": "ground_service", "slots": "O, O, O, B-ground_service transport_type, I-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "what does ls stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation meal_code, F, O, O"}
+{"text_u": "what ground transportation is available in dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "rental car in baltimore", "intent": "ground_service", "slots": "B-ground_service transport_type, I-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "show me ground transportation for dallas", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "show me first class airlines from san francisco to pittsburgh on next tuesday first class only", "intent": "airline", "slots": "O, O, B-airline class_type, I-airline class_type, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline depart_date date_relative, B-airline depart_date day_name, B-airline class_type, I-airline class_type, O"}
+{"text_u": "i need to get downtown from the denver airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name"}
+{"text_u": "what is the available ground transportation between the airport in denver and downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service fromloc city_name, O, O"}
+{"text_u": "what does us mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O"}
+{"text_u": "what airlines fly boston to baltimore", "intent": "airline", "slots": "O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is the seating capacity for the f28", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "how many seats in a 734", "intent": "capacity", "slots": "O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "how far is the airport from san francisco", "intent": "distance", "slots": "O, O, O, O, O, O, B-distance fromloc city_name, I-distance fromloc city_name"}
+{"text_u": "list number of people that can be carried on each type of plane that flies between pittsburgh and baltimore", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-capacity fromloc city_name, O, B-capacity toloc city_name"}
+{"text_u": "what does mco stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O, O"}
+{"text_u": "what airline is as", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "ground transportation minneapolis", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "how far is oakland airport from downtown", "intent": "distance", "slots": "O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, O, O"}
+{"text_u": "which airlines provide direct flights between washington and denver", "intent": "airline", "slots": "O, O, O, B-airline connect, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what airlines are ac and as", "intent": "airline", "slots": "O, O, O, B-airline airline_code, O, B-airline airline_code"}
+{"text_u": "what's the capacity of a 733", "intent": "capacity", "slots": "O, F, F, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "please list the flight times from pittsburgh to newark", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "does any airline have an early afternoon flight from boston to denver", "intent": "airline", "slots": "O, O, O, O, O, B-airline depart_time period_of_day, B-airline depart_time period_of_day, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "rental cars in boston", "intent": "ground_service", "slots": "B-ground_service transport_type, I-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "what ground transportation is available in san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "show me the airlines with first class flights", "intent": "airline", "slots": "O, O, O, O, O, B-airline class_type, I-airline class_type, O"}
+{"text_u": "which airline has the most business class flights", "intent": "airline", "slots": "O, O, O, O, B-airline mod, B-airline class_type, I-airline class_type, O"}
+{"text_u": "which airlines have daily flights from boston to dallas", "intent": "airline", "slots": "O, O, O, B-airline flight_days, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "show me the flight schedule from pittsburgh to san francisco", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "show me times for flights from san francisco to atlanta", "intent": "flight_time", "slots": "O, O, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, I-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what airlines fly from boston to pittsburgh", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what does ap57 mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation restriction_code, F, O"}
+{"text_u": "ground transportation atlanta", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "what does ua stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O, O"}
+{"text_u": "what ground transportation is available in boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "is us air", "intent": "airline", "slots": "O, B-airline airline_name, I-airline airline_name"}
+{"text_u": "what are fare codes qw and qx", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O, B-abbreviation fare_basis_code, F"}
+{"text_u": "is there ground transportation in boston from the airport", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, O, O, O"}
+{"text_u": "what is american's schedule of morning flights to atlanta", "intent": "flight_time", "slots": "O, O, B-flight_time airline_name, F, F, B-flight_time flight_time, O, B-flight_time depart_time period_of_day, O, O, B-flight_time toloc city_name"}
+{"text_u": "houston airports", "intent": "airport", "slots": "B-airport city_name, O"}
+{"text_u": "what is dl", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "which companies fly between boston and oakland", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "please list ground transportation in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what transportation is available from the dallas airport to downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O"}
+{"text_u": "what does restriction ap 57 mean", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code, O"}
+{"text_u": "explain restriction ap80", "intent": "abbreviation", "slots": "O, O, B-abbreviation restriction_code, F"}
+{"text_u": "what ground transport is available in baltimore", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "tell me about ground transportation between orlando international and orlando", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, B-ground_service toloc city_name"}
+{"text_u": "is there limo service at pittsburgh airport", "intent": "ground_service", "slots": "O, O, B-ground_service transport_type, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "please list available ground transportation in pittsburgh", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does the abbreviation ua mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation airline_code, O"}
+{"text_u": "does dl stand for delta", "intent": "abbreviation", "slots": "O, B-abbreviation airline_code, O, O, B-abbreviation airline_name"}
+{"text_u": "list all the airlines that service denver", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline city_name"}
+{"text_u": "what does restriction ap 57", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "what airline is dl 98", "intent": "airline", "slots": "O, O, O, B-airline airline_code, B-airline flight_number"}
+{"text_u": "what kind of ground transportation is available in las vegas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what is the ground transportation between airport and baltimore", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service toloc city_name"}
+{"text_u": "show me dallas ground transport", "intent": "ground_service", "slots": "O, O, B-ground_service city_name, O, O"}
+{"text_u": "please show me airlines with round trip flights from boston to denver stop philadelphia", "intent": "airline", "slots": "O, O, O, O, O, B-airline round_trip, I-airline round_trip, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline stoploc city_name"}
+{"text_u": "show me the airlines between boston and toronto", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what airlines fly from boston to pittsburgh", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "list ground transportation in detroit", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is restriction ap 57", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "airline and flight number from columbus to minneapolis", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "and i'll need ground transportation for tuesday july sixth to wednesday july seventh in san diego", "intent": "ground_service", "slots": "O, O, F, F, O, O, O, O, B-ground_service day_name, B-ground_service month_name, B-ground_service day_number, O, B-ground_service day_name, B-ground_service month_name, B-ground_service day_number, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what does us mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O"}
+{"text_u": "of all airlines which airline has the most arrivals in atlanta", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline mod, O, O, B-airline toloc city_name"}
+{"text_u": "what is fare code h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "please list all airline flights between denver and boston", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is ord", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "what does the airline code dl stand for", "intent": "airline", "slots": "O, O, O, O, O, B-airline airline_code, O, O"}
+{"text_u": "what ground transportation is available at baltimore", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "how far is it from orlando airport to orlando", "intent": "distance", "slots": "O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, O, B-distance toloc city_name"}
+{"text_u": "please show me airlines with service from boston to denver", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is mia", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code"}
+{"text_u": "can i have a rental car in houston", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service transport_type, I-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "can i get a taxi from long beach airport to downtown long beach", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service transport_type, O, B-ground_service fromloc city_name, I-ground_service fromloc city_name, O, O, O, B-ground_service fromloc city_name, I-ground_service fromloc city_name"}
+{"text_u": "what ground transportation is available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does co mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O"}
+{"text_u": "what kind of ground transportation is there in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "show me the airlines that use love field", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline airport_name, I-airline airport_name"}
+{"text_u": "in boston is there ground transportation between airport and downtown", "intent": "ground_service", "slots": "O, B-ground_service city_name, O, O, O, O, O, O, O, O"}
+{"text_u": "tell me about ground transportation at salt lake city", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name"}
+{"text_u": "show me a list of rental car fares at boston airport", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service transport_type, I-ground_service transport_type, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "can you give me information on transportation from the airport in philadelphia to downtown philadelphia", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, B-ground_service fromloc city_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "please tell me the times of the flights between boston and baltimore", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, O, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "what is ewr", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "airports in new york", "intent": "airport", "slots": "O, O, B-airport city_name, I-airport city_name"}
+{"text_u": "what is bna", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "what kind of ground transportation is available in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "ground transport phoenix", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "show me ground transportation information for dallas fort worth", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name"}
+{"text_u": "which airlines fly from boston to washington dc via other cities", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, B-airline toloc state_code, O, O, O"}
+{"text_u": "what ground transportation can i take into boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does the meal code s stand for", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation meal, O, B-abbreviation meal_code, O, O"}
+{"text_u": "what is the ground transport in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "i need information on ground transportation from the airport in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service fromloc city_name"}
+{"text_u": "what is fare code qo mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "ground transportation atl to atlanta", "intent": "ground_service", "slots": "O, O, B-ground_service airport_code, F, O, B-ground_service toloc city_name"}
+{"text_u": "please show me all airlines with sunday flights from philadelphia to denver", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline depart_date day_name, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what does ewr mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O"}
+{"text_u": "show ground transportation for pittsburgh", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service city_name"}
+{"text_u": "do you have ground transportation between airport and downtown in boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service toloc city_name"}
+{"text_u": "what does fare code qx mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what is the yn code", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "how many seats in a 100", "intent": "capacity", "slots": "O, O, O, O, O, B-capacity aircraft_code"}
+{"text_u": "show me the ground transportation schedule in san francisco on thursday evening", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name, O, B-ground_service day_name, B-ground_service period_of_day"}
+{"text_u": "what airlines fly into salt lake city", "intent": "airline", "slots": "O, O, O, O, B-airline toloc city_name, I-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "which airline is the cheapest to fly from dallas to baltimore on december twenty fourth", "intent": "airline", "slots": "O, O, O, O, B-airline cost_relative, F, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline depart_date month_name, B-airline depart_date day_number, I-airline depart_date day_number"}
+{"text_u": "what is the total seating capacity of all aircraft of american airlines", "intent": "capacity", "slots": "O, O, O, B-capacity mod, O, O, O, O, O, O, B-capacity airline_name, I-capacity airline_name"}
+{"text_u": "is there ground transportation in baltimore", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does restriction ap 80 mean", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code, O"}
+{"text_u": "which airline provides business class flights", "intent": "airline", "slots": "O, O, O, B-airline class_type, I-airline class_type, O"}
+{"text_u": "what kind of airline is flight ua 281 from boston to denver", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline airline_code, B-airline flight_number, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what ground transportation is available from the pittsburgh airport to downtown and how much does it cost", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, O, O, O, O, O, O"}
+{"text_u": "does any airline have an afternoon flight from boston to oakland", "intent": "airline", "slots": "O, O, O, O, O, B-airline depart_time period_of_day, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "does the philadelphia airport have a name", "intent": "airport", "slots": "O, O, B-airport airport_name, I-airport airport_name, O, O, O"}
+{"text_u": "what is sa", "intent": "abbreviation", "slots": "O, O, B-abbreviation days_code"}
+{"text_u": "which airlines fly from boston to san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what kind of ground transportation is available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "does any airline have an early afternoon flight from boston to pittsburgh", "intent": "airline", "slots": "O, O, O, O, O, B-airline depart_time period_of_day, B-airline depart_time period_of_day, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "show me what fare codes symbols stand for", "intent": "abbreviation", "slots": "O, O, O, O, O, O, O, O"}
+{"text_u": "what airlines have flights from baltimore to seattle", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what airline is ea", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "please give grounds transportation at dallas airport", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "show me the airlines that fly from toronto to boston", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what is airline nw", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "is there ground transportation from the boston airport to downtown boston", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "what is hp", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code"}
+{"text_u": "how many seats in a 72s", "intent": "capacity", "slots": "O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "is there ground transportation in oakland", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "how much time does it take to go between the airport and downtown by ground transportation in dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "which airlines have connections between pittsburgh and baltimore", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what does ord mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O"}
+{"text_u": "what does nw stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O, O"}
+{"text_u": "ground transport in denver", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name"}
+{"text_u": "ground transportation denver", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "i want to know the time of the latest flight i can take from washington to san francisco where i can get a dinner meal", "intent": "flight_time", "slots": "O, O, O, O, O, B-flight_time flight_time, O, O, B-flight_time flight_mod, O, O, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name, O, O, O, O, O, B-flight_time meal_description, I-flight_time meal_description"}
+{"text_u": "what's the name of the denver airport", "intent": "airport", "slots": "O, F, F, O, O, O, O, B-airport airport_name, I-airport airport_name"}
+{"text_u": "please give me ground transportation information between dallas fort worth airport and downtown dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, I-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "show me the ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "i would like a schedule of flights from denver to san francisco on tuesday", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name, O, B-flight_time depart_date day_name"}
+{"text_u": "what airlines fly from boston to atlanta", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "is there ground transportation available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "is ground transportation available in philadelphia", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "ground san francisco", "intent": "ground_service", "slots": "O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what times does continental depart from boston to san francisco", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, B-flight_time airline_name, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "can you rent a car at stapleton international airport in denver", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service transport_type, O, B-ground_service fromloc airport_name, F, I-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, B-ground_service fromloc city_name"}
+{"text_u": "list airlines serving between denver and san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what is the seating capacity of a boeing 767", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is fare code m", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what ground transportation is available in san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "information on ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "tell me about ground transportation between orlando international and orlando", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, B-ground_service toloc city_name"}
+{"text_u": "does tacoma airport offer transportation from the airport to the downtown area", "intent": "ground_service", "slots": "O, B-ground_service airport_name, I-ground_service airport_name, O, O, O, O, O, O, O, O, O"}
+{"text_u": "i would like to know what airports are in los angeles", "intent": "airport", "slots": "O, O, O, O, O, O, O, O, O, B-airport city_name, I-airport city_name"}
+{"text_u": "what airlines fly between detroit and westchester county", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what are the departure times from detroit to westchester county", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "what airline flies from boston to san diego", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what is the ground transportation between the charlotte airport charlotte airport and downtown charlotte", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, B-ground_service city_name, I-ground_service city_name, O, O, B-ground_service city_name"}
+{"text_u": "which different airlines go from las vegas to new york city", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what's the ground transportation in denver", "intent": "ground_service", "slots": "O, F, F, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what's the ground transportation in westchester county", "intent": "ground_service", "slots": "O, F, F, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what airlines off from love field between 6 and 10 am on june sixth", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc airport_name, I-airline fromloc airport_name, O, B-airline depart_time start_time, O, B-airline depart_time end_time, I-airline depart_time end_time, O, B-airline depart_date month_name, B-airline depart_date day_number"}
+{"text_u": "which airport is closest to ontario california", "intent": "airport", "slots": "O, O, O, B-airport mod, O, B-airport city_name, B-airport state_name"}
+{"text_u": "what is meal code sb", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation meal_code"}
+{"text_u": "how far is new york's la guardia from downtown", "intent": "distance", "slots": "O, O, O, B-distance city_name, I-distance city_name, F, F, B-distance airport_name, I-distance airport_name, F, O, O"}
+{"text_u": "how far is toronto international from downtown", "intent": "distance", "slots": "O, O, O, B-distance airport_name, I-distance airport_name, O, O"}
+{"text_u": "how far is los angeles international from downtown", "intent": "distance", "slots": "O, O, O, B-distance airport_name, I-distance airport_name, I-distance airport_name, O, O"}
+{"text_u": "how far is san francisco international from downtown", "intent": "distance", "slots": "O, O, O, B-distance airport_name, I-distance airport_name, I-distance airport_name, O, O"}
+{"text_u": "what airlines fly between washington dc and columbus ohio", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, B-airline fromloc state_code, O, B-airline toloc city_name, B-airline toloc state_name"}
+{"text_u": "what airlines are departing from baltimore", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name"}
+{"text_u": "which airlines fly from baltimore to san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "how long does a flight from baltimore to san francisco take", "intent": "distance", "slots": "O, O, O, O, O, O, B-distance fromloc city_name, O, B-distance toloc city_name, I-distance toloc city_name, O"}
+{"text_u": "what is fare code m", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "list the distance in miles from boston airport to downtown boston", "intent": "distance", "slots": "O, O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, O, O, B-distance city_name"}
+{"text_u": "list the distance in miles from new york's la guardia airport to downtown new york city", "intent": "distance", "slots": "O, O, O, O, O, O, B-distance fromloc city_name, I-distance fromloc city_name, F, F, B-distance fromloc airport_name, I-distance fromloc airport_name, F, I-distance fromloc airport_name, O, O, B-distance city_name, I-distance city_name, I-distance city_name"}
+{"text_u": "list the distance in miles from toronto international airport to downtown toronto", "intent": "distance", "slots": "O, O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, O, O, B-distance city_name"}
+{"text_u": "list the distance in miles from san francisco international airport to san francisco downtown", "intent": "distance", "slots": "O, O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, O, B-distance toloc city_name, I-distance toloc city_name, O"}
+{"text_u": "list airlines flying from seattle to salt lake city", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what is the seating capacity for aircraft l10", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity for delta be1", "intent": "capacity", "slots": "O, O, O, O, O, O, B-capacity airline_name, B-capacity aircraft_code, F"}
+{"text_u": "what is fare code f", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what airlines fly from baltimore to san francisco", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what does hp stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O, O"}
+{"text_u": "what does fare code bn mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "i would like to have the airline that flies toronto detroit and st. louis", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, B-airline fromloc city_name, B-airline toloc city_name, O, B-airline toloc city_name, F, I-airline toloc city_name"}
+{"text_u": "what is airline wn", "intent": "airline", "slots": "O, O, O, B-airline airline_code, F"}
+{"text_u": "now show me ground transportation in houston on monday afternoon", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, O, B-ground_service day_name, B-ground_service period_of_day"}
+{"text_u": "and now show me ground transportation that i could get in boston late night", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, B-ground_service city_name, B-ground_service period_of_day, B-ground_service period_of_day"}
+{"text_u": "show me airlines that have flights between toronto and detroit between detroit and st. louis and between st. louis and toronto", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline fromloc city_name, O, B-airline toloc city_name, F, I-airline toloc city_name, O, O, B-airline fromloc city_name, F, I-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what does ua mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airline_code, O"}
+{"text_u": "i'll need to rent a car in washington dc", "intent": "ground_service", "slots": "O, F, F, O, O, O, O, B-ground_service transport_type, O, B-ground_service city_name, B-ground_service state_code"}
+{"text_u": "what does q mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what does m mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what does ap 57 mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation restriction_code, I-abbreviation restriction_code, O"}
+{"text_u": "what does ap 20 mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation restriction_code, I-abbreviation restriction_code, O"}
+{"text_u": "i need to rent a car in milwaukee", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "what ground transportation is available at denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what airline is us", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what is phl", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "what is mci", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "what does not sa mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation mod, B-abbreviation days_code, O"}
+{"text_u": "what airline is dl", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what ground transportation is available from dallas fort worth airport to downtown dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name, O, O, B-ground_service city_name"}
+{"text_u": "how many passengers can an l1011 aircraft hold", "intent": "capacity", "slots": "O, O, O, O, O, B-capacity aircraft_code, F, F, O, O"}
+{"text_u": "what is the seating capacity of a dc9", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what ground transportation is available between phoenix airport and downtown phoenix", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, O, O, B-ground_service city_name"}
+{"text_u": "what is the seating capacity for the aircraft m80", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what airline is aa", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what ground transportation is available between pittsburgh airport and downtown pittsburgh", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, O, O, B-ground_service city_name"}
+{"text_u": "what ground transportation is available between dca and downtown washington", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_code, F, O, O, B-ground_service city_name"}
+{"text_u": "what ground transportation is available between milwaukee airport and downtown milwaukee", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, O, O, B-ground_service city_name"}
+{"text_u": "please show ground transportation to milwaukee", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what types of ground transportation are available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "is ground transportation available in st. louis", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, F, I-ground_service city_name"}
+{"text_u": "is there ground transportation available at the indianapolis airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "is there ground transportation available at the denver airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "is there ground transportation available at the salt lake city airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "is there ground transportation available at the phoenix airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "list airports in arizona nevada and california please", "intent": "airport", "slots": "O, O, O, B-airport state_name, I-airport state_name, O, B-airport state_name, O"}
+{"text_u": "list california nevada arizona airports", "intent": "airport", "slots": "O, B-airport state_name, B-airport state_name, B-airport state_name, O"}
+{"text_u": "list the arizona airport", "intent": "airport", "slots": "O, O, B-airport state_name, O"}
+{"text_u": "list california airports", "intent": "airport", "slots": "O, B-airport state_name, O"}
+{"text_u": "list california airports", "intent": "airport", "slots": "O, B-airport state_name, O"}
+{"text_u": "list airports", "intent": "airport", "slots": "O, O"}
+{"text_u": "which airlines fly between toronto and san diego", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what is tpa", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "i need to rent a car at tampa", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service transport_type, O, B-ground_service city_name"}
+{"text_u": "what does fare code qo mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what the abbreviation us stand for", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation airline_code, O, O"}
+{"text_u": "what does fare code f mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what does fare code h mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what does fare code y mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what are restrictions ap 57", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "what airline is dl", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "which airline is kw", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what does fare code bh mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what does fare code bh mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what does fare code bh mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what does fare code bh mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what does fare code bh mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what airline is hp", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "ground transportation in las vegas", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "ground transportation for las vegas", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what airline is us", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "which airline is us", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "which airline is us", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "which airline is us", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "which airline is us", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what airline is hp", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what airline is yx", "intent": "airline", "slots": "O, O, O, B-airline airline_code, F"}
+{"text_u": "what airline is hp", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "show me ground transportation in phoenix", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "show me ground transportation in fort worth", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what does fare code f mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what does the restriction ap58 mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation restriction_code, F, O"}
+{"text_u": "what does fare code h mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what airline is as", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what airline is as", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what airline is as", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what airline is as as in sam", "intent": "airline", "slots": "O, O, O, B-airline airline_code, O, O, O"}
+{"text_u": "what airline is hp", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "list distance from airports to downtown in new york", "intent": "distance", "slots": "O, O, O, O, O, O, O, B-distance city_name, I-distance city_name"}
+{"text_u": "list airports in new york", "intent": "airport", "slots": "O, O, O, B-airport city_name, I-airport city_name"}
+{"text_u": "list airports in new york", "intent": "airport", "slots": "O, O, O, B-airport city_name, I-airport city_name"}
+{"text_u": "list airports in la", "intent": "airport", "slots": "O, O, O, B-airport city_name"}
+{"text_u": "list airports", "intent": "airport", "slots": "O, O"}
+{"text_u": "list airports in la", "intent": "airport", "slots": "O, O, O, B-airport city_name"}
+{"text_u": "list airports in la", "intent": "airport", "slots": "O, O, O, B-airport city_name"}
+{"text_u": "list the airports in la", "intent": "airport", "slots": "O, O, O, O, B-airport city_name"}
+{"text_u": "what class is fare code q", "intent": "abbreviation", "slots": "O, O, O, O, O, B-abbreviation booking_class"}
+{"text_u": "list airlines that fly from seattle to salt lake city", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "list seating capacities of delta flights from seattle to salt lake city", "intent": "capacity", "slots": "O, O, O, O, B-capacity airline_name, O, O, B-capacity fromloc city_name, O, B-capacity toloc city_name, I-capacity toloc city_name, I-capacity toloc city_name"}
+{"text_u": "what ground transportation is there in baltimore", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "list ground transportation in baltimore", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service city_name"}
+{"text_u": "what is a d9s", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation aircraft_code, F, F"}
+{"text_u": "what is a d9s", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation aircraft_code, F, F"}
+{"text_u": "show me the airports serviced by tower air", "intent": "airport", "slots": "O, O, O, O, O, O, B-airport airline_name, I-airport airline_name"}
+{"text_u": "what is the seating capacity on the aircraft 733", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of a 72s", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of the aircraft 72s", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of the aircraft m80", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of the type of aircraft m80", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of an m80", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what airlines serve denver", "intent": "airline", "slots": "O, O, O, B-airline city_name"}
+{"text_u": "list the airlines with flights to or from denver", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, B-airline city_name"}
+{"text_u": "what airlines fly into denver", "intent": "airline", "slots": "O, O, O, O, B-airline toloc city_name"}
+{"text_u": "what is the capacity of the 73s", "intent": "capacity", "slots": "O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is 73s", "intent": "abbreviation", "slots": "O, O, B-abbreviation aircraft_code, F"}
+{"text_u": "what is seating capacity on the aircraft 73s", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of a 757", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "how many people will a 757 hold", "intent": "capacity", "slots": "O, O, O, O, O, B-capacity aircraft_code, F, O"}
+{"text_u": "how many passengers can fly on a 757", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of the 757", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of the 733", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity of the m80", "intent": "capacity", "slots": "O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "what is the seating capacity on the aircraft m80", "intent": "capacity", "slots": "O, O, O, O, O, O, O, O, B-capacity aircraft_code, F"}
+{"text_u": "is there ground transportation from the memphis airport into town when if i arrive at 842 in the morning", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, O, O, O, O, O, O, O, O, F, O, O, B-ground_service period_of_day"}
+{"text_u": "what is cvg", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F"}
+{"text_u": "what ground transportation is available from la guardia airport into new york city", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, F, I-ground_service airport_name, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name"}
+{"text_u": "is there ground transportation from lga into new york city", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service airport_code, F, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name"}
+{"text_u": "please list the ground transportation from lga into new york city", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service airport_code, F, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name"}
+{"text_u": "please list ground transportation from ewr into new york city", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service airport_code, F, O, B-ground_service city_name, I-ground_service city_name, I-ground_service city_name"}
+{"text_u": "tell me about the ground transportation from nashville airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "which airline is as", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what type of ground transportation is there at the las vegas airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "is there taxi service at the ontario airport", "intent": "ground_service", "slots": "O, O, B-ground_service transport_type, I-ground_service transport_type, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "is there one airline that flies from burbank to milwaukee milwaukee to st. louis and from st. louis to burbank", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, F, F, O, B-airline toloc city_name, B-airline fromloc city_name, O, B-airline toloc city_name, F, I-airline toloc city_name, O, O, B-airline fromloc city_name, F, I-airline fromloc city_name, O, B-airline toloc city_name, F, F"}
+{"text_u": "tell me all the airports near westchester county", "intent": "airport", "slots": "O, O, O, O, O, O, B-airport city_name, I-airport city_name"}
+{"text_u": "tell me all the airports in the new york city area", "intent": "airport", "slots": "O, O, O, O, O, O, O, B-airport city_name, I-airport city_name, I-airport city_name, O"}
+{"text_u": "what types of ground transportation are available in philadelphia", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does the abbreviation co mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation airline_code, O"}
+{"text_u": "airline that stands for dl", "intent": "airline", "slots": "O, O, O, O, B-airline airline_code"}
+{"text_u": "can you tell me the time a flight would leave from atlanta to boston in the afternoon", "intent": "flight_time", "slots": "O, O, O, O, O, B-flight_time flight_time, O, O, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, O, B-flight_time depart_time period_of_day"}
+{"text_u": "show me ground transportation in philadelphia on monday morning", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, O, B-ground_service day_name, B-ground_service period_of_day"}
+{"text_u": "i would like the time of your earliest flight in the morning from philadelphia to washington on american airlines", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, O, O, B-flight_time flight_mod, O, O, O, B-flight_time depart_time period_of_day, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, B-flight_time airline_name, I-flight_time airline_name"}
+{"text_u": "please list the flight schedule from baltimore to san francisco on friday nights", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name, O, B-flight_time depart_date day_name, B-flight_time depart_time period_of_day"}
+{"text_u": "how long is a trip from philadelphia airport to downtown philadelphia", "intent": "distance", "slots": "O, O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, O, O, B-distance toloc city_name"}
+{"text_u": "on united airlines give me the flight times from boston to dallas", "intent": "flight_time", "slots": "O, B-flight_time airline_name, I-flight_time airline_name, O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "show me the ground transportation schedule in philadelphia in the morning on wednesday", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service city_name, O, O, B-ground_service period_of_day, O, B-ground_service day_name"}
+{"text_u": "in new york i'll need to rent a car", "intent": "ground_service", "slots": "O, B-ground_service city_name, I-ground_service city_name, O, F, F, O, O, O, O, B-ground_service transport_type"}
+{"text_u": "what time are the flights from baltimore to san francisco", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "how many passengers can a boeing 737 hold", "intent": "capacity", "slots": "O, O, O, O, O, O, B-capacity aircraft_code, O"}
+{"text_u": "what time is the last flight from washington to san francisco", "intent": "flight_time", "slots": "O, B-flight_time flight_time, O, O, B-flight_time flight_mod, O, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "what does lax stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, O, O"}
+{"text_u": "show me the airlines for flights to or from love field", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, B-airline fromloc airport_name, I-airline fromloc airport_name"}
+{"text_u": "what does yn stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation fare_basis_code, F, O, O"}
+{"text_u": "show me the airlines from love field", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc airport_name, I-airline fromloc airport_name"}
+{"text_u": "can you tell me what airline flies between denver and san francisco", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, I-airline toloc city_name"}
+{"text_u": "what airlines fly from burbank to denver", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, F, F, O, B-airline toloc city_name"}
+{"text_u": "what ground transportation is available at the boston airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "where do the flights from boston to oakland stop", "intent": "airport", "slots": "O, O, O, O, O, B-airport fromloc city_name, O, B-airport toloc city_name, B-airport flight_stop"}
+{"text_u": "what fare codes cover flights from philadelphia to san francisco", "intent": "abbreviation", "slots": "O, O, O, O, O, O, B-abbreviation fromloc city_name, O, B-abbreviation toloc city_name, I-abbreviation toloc city_name"}
+{"text_u": "list departure times from denver to philadelphia which are later than 10 o'clock and earlier than 2 pm", "intent": "flight_time", "slots": "O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, O, O, B-flight_time depart_time time_relative, O, B-flight_time depart_time time, I-flight_time depart_time time, F, F, F, O, B-flight_time depart_time time_relative, O, B-flight_time depart_time time, I-flight_time depart_time time"}
+{"text_u": "are there any airlines that have flights from boston to philadelphia that leave before 630 am", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, O, B-airline depart_time time_relative, B-airline depart_time time, I-airline depart_time time"}
+{"text_u": "what type of ground transportation is available at philadelphia airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "what is the ground transportation available in the city of fort worth", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
+{"text_u": "what does ewr stand for", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O, O"}
+{"text_u": "please give me the flight times the morning on united airlines for september twentieth from philadelphia to san francisco", "intent": "flight_time", "slots": "O, O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time depart_time period_of_day, O, B-flight_time airline_name, I-flight_time airline_name, O, B-flight_time depart_date month_name, B-flight_time depart_date day_number, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name, I-flight_time toloc city_name"}
+{"text_u": "what is fare code c", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what airlines have business class", "intent": "airline", "slots": "O, O, O, B-airline class_type, I-airline class_type"}
+{"text_u": "what ground transportation is available at the baltimore airport", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, B-ground_service airport_name, I-ground_service airport_name"}
+{"text_u": "please list the flight times for boston to pittsburgh", "intent": "flight_time", "slots": "O, O, O, B-flight_time flight_time, I-flight_time flight_time, O, B-flight_time fromloc city_name, O, B-flight_time toloc city_name"}
+{"text_u": "could you tell me if there is ground transportation between the boston airport and boston downtown", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, B-ground_service toloc city_name, O"}
+{"text_u": "ground transportation denver", "intent": "ground_service", "slots": "O, O, B-ground_service city_name"}
+{"text_u": "how long does it take to fly from boston to atlanta", "intent": "distance", "slots": "O, O, O, O, O, O, O, O, B-distance fromloc city_name, O, B-distance toloc city_name"}
+{"text_u": "what ground transportation is available in denver", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "in pittsburgh i'd like to rent a car", "intent": "ground_service", "slots": "O, B-ground_service city_name, O, F, F, O, O, O, O, B-ground_service transport_type"}
+{"text_u": "what is airline nw", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "what limousine service is in boston", "intent": "ground_service", "slots": "O, B-ground_service transport_type, O, O, O, B-ground_service city_name"}
+{"text_u": "what is fare code y mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what does fare code q mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, O"}
+{"text_u": "what is sa", "intent": "abbreviation", "slots": "O, O, B-abbreviation days_code"}
+{"text_u": "what does fare code qo mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what does mco mean", "intent": "abbreviation", "slots": "O, O, B-abbreviation airport_code, F, O"}
+{"text_u": "which airline offers the cheapest rate going from dallas to baltimore on july fourth", "intent": "airline", "slots": "O, O, O, O, B-airline cost_relative, F, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, B-airline depart_date month_name, B-airline depart_date day_number"}
+{"text_u": "ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name"}
+{"text_u": "show ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, O, B-ground_service city_name"}
+{"text_u": "please show me airlines with flights from denver to boston with stop in philadelphia", "intent": "airline", "slots": "O, O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name, O, O, O, B-airline stoploc city_name"}
+{"text_u": "rental cars in washington dc", "intent": "ground_service", "slots": "B-ground_service transport_type, I-ground_service transport_type, O, B-ground_service city_name, B-ground_service state_code"}
+{"text_u": "what is fare class h", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "what kind of ground transportation is there in dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what's fare code yn", "intent": "abbreviation", "slots": "O, F, F, O, O, B-abbreviation fare_basis_code, F"}
+{"text_u": "airports in new york", "intent": "airport", "slots": "O, O, B-airport city_name, I-airport city_name"}
+{"text_u": "what ground transportation is there in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "what does fare code qw mean", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "i need information for ground transportation denver colorado", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name, B-ground_service state_name"}
+{"text_u": "show me the airlines for flights to or from love field", "intent": "airline", "slots": "O, O, O, O, O, O, O, O, O, B-airline fromloc airport_name, I-airline fromloc airport_name"}
+{"text_u": "which airline serves denver pittsburgh and atlanta", "intent": "airline", "slots": "O, O, O, B-airline fromloc city_name, B-airline fromloc city_name, O, B-airline fromloc city_name"}
+{"text_u": "what is fare code f", "intent": "abbreviation", "slots": "O, O, O, O, B-abbreviation fare_basis_code"}
+{"text_u": "show all airlines with flights between denver and dallas", "intent": "airline", "slots": "O, O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what airlines fly from boston to denver", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "what ground transportation is there in atlanta", "intent": "ground_service", "slots": "O, O, O, O, O, O, B-ground_service city_name"}
+{"text_u": "how far from the airport in the dallas fort worth airport is dallas", "intent": "distance", "slots": "O, O, O, O, O, O, O, B-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, I-distance fromloc airport_name, O, B-distance fromloc city_name"}
+{"text_u": "ground transportation in denver", "intent": "ground_service", "slots": "O, O, O, B-ground_service city_name"}
+{"text_u": "explain the restriction ap 80", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation restriction_code, I-abbreviation restriction_code"}
+{"text_u": "which airlines go from san francisco to washington by way of indianapolis", "intent": "airline", "slots": "O, O, O, O, B-airline fromloc city_name, I-airline fromloc city_name, O, B-airline toloc city_name, O, O, O, B-airline stoploc city_name"}
+{"text_u": "describe pittsburgh airport", "intent": "airport", "slots": "O, B-airport airport_name, I-airport airport_name"}
+{"text_u": "what airline uses the code hp", "intent": "airline", "slots": "O, O, O, O, O, B-airline airline_code"}
+{"text_u": "could you tell me about ground transportation arrangements from the dallas airport to downtown dallas", "intent": "ground_service", "slots": "O, O, O, O, O, O, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name, O, O, B-ground_service toloc city_name"}
+{"text_u": "is there a limousine service available from the pittsburgh airport", "intent": "ground_service", "slots": "O, O, O, B-ground_service transport_type, O, O, O, O, B-ground_service fromloc airport_name, I-ground_service fromloc airport_name"}
+{"text_u": "boston ground transportation", "intent": "ground_service", "slots": "B-ground_service city_name, O, O"}
+{"text_u": "what does code qw mean", "intent": "abbreviation", "slots": "O, O, O, B-abbreviation fare_basis_code, F, O"}
+{"text_u": "what airline is hp", "intent": "airline", "slots": "O, O, O, B-airline airline_code"}
+{"text_u": "which airlines have flights between philadelphia and pittsburgh", "intent": "airline", "slots": "O, O, O, O, O, B-airline fromloc city_name, O, B-airline toloc city_name"}
+{"text_u": "show me ground transportation in san francisco", "intent": "ground_service", "slots": "O, O, O, O, O, B-ground_service city_name, I-ground_service city_name"}
