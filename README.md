@@ -1,6 +1,8 @@
 # README
 
-Thanks for your attention. The following instructions can help you reproduce the experiments.
+Code for
+
+Liu, H., Zhang, F., Zhang, X.T., Zhao, S.Y., & Zhang, X.C.(2021, November). An Explicit-Joint and Supervised-Contrastive Learning Framework for Few-Shot Intent Classification and Slot Filling. In Findings of the 2021 Conference on Empirical Methods in Natural Language Processing(EMNLP)
 
 ## Platform
 
