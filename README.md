@@ -1,8 +1,8 @@
 # README
-
-Code for
-
-Liu, H., Zhang, F., Zhang, X.T., Zhao, S.Y., & Zhang, X.C.(2021, November). An Explicit-Joint and Supervised-Contrastive Learning Framework for Few-Shot Intent Classification and Slot Filling. In Findings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP) (long paper), November 2021.
+ 
+An Explicit-Joint and Supervised-Contrastive Learning Framework for Few-Shot Intent Classification and Slot Filling  
+Han Liu, Feng Zhang, Xiaotong Zhang*, Siyang Zhao, Xianchao Zhang  
+To Appear in Findings of the 2021 Conference on Empirical Methods in Natural Language Processing (**EMNLP**) (long paper), November 2021  
 
 ## Platform
 
