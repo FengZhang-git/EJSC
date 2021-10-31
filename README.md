@@ -2,7 +2,8 @@
  
 An Explicit-Joint and Supervised-Contrastive Learning Framework for Few-Shot Intent Classification and Slot Filling  
 Han Liu, Feng Zhang, Xiaotong Zhang*, Siyang Zhao, Xianchao Zhang  
-To Appear in Findings of the 2021 Conference on Empirical Methods in Natural Language Processing (**EMNLP**) (long paper), November 2021  
+To Appear in Findings of the 2021 Conference on Empirical Methods in Natural Language Processing (**EMNLP**) (long paper), November 2021   
+[Paper](https://arxiv.org/abs/2110.13691) [Code](https://github.com/FengZhang-git/EJSC)
 
 ## Platform
 
